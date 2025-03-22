@@ -3,8 +3,6 @@ import './Photo.css'
 import { Link, useNavigate } from 'react-router';
 
 const Photo = ({photo}) => {
-   
-    
     // console.log(photo);
     const {name, flags} = photo
     const navigate = useNavigate()
